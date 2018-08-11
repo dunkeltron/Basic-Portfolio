@@ -12,30 +12,30 @@ body{
     border-bottom-color: #dddddd;
     border-bottom: 2px;
     border-style: solid;
-
-    position: absolute;
-    left: 0px;
+    position: relative;
+    right: 0px;
     width: 100%;
+    min-width:965px;
     height:100px;
     margin:0;
 }
 #name{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     position: relative;
-    left: 18%;
     height: 100px;
+    left: auto;
     background-color: #4aaaa5;
     text-align: center;
     line-height: 100px;
     display: inline-block;
     color: white;
     font-size: 32px;
-    margin: auto;
+    margin-left: auto;
     padding: 0px 50px 0px 50px;
 }
 #links{
     position: relative;
-    right: -48.5%;
+    left:450px;
     display: inline-block;
 }
 
@@ -44,12 +44,23 @@ a{
     text-decoration: none;
 }
 
+.content-block{
+    position: relative;
+    top:50px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 960px;
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    margin-bottom: 200px;
+    border: 2px #cccccc solid;
+}
 h1{
     padding: 40px 0px ;
+    margin: 0px 45px 0px 45px;
     color:#4aaaa5;
     font-size: 28px;
     position: relative;
-    left: 40px;
     top: 0px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
@@ -58,26 +69,40 @@ h1{
     width: 90%;
 
 }
-
-.content-block{
-    margin: auto;
-    position: relative;
-    top:150px;
-    width: 960px;
-    background-color: #ffffff;
-    padding-bottom: 30px;
-    margin-bottom: 200px;
-    border: 2px #cccccc solid;
-}
 #about-photo{
     position: relative;
     float:left;
-    padding: 30px 20px 20px 40px;
+    padding: 30px 20px 20px 45px;
 }
 #content-text{
     padding-top: 30px;
-    margin: 0px 30px;
+    margin: 0px 45px;
     width: 90%;
+}
+.project-photo-block{
+    width:60%;
+    margin:5% 5%;    
+    line-height:6;
+}
+#project1-photo{
+    margin:0px 40px 0px 0px;
+
+}
+#project2-photo{
+    margin:0px 40px 0px 0px;
+
+}
+#project3-photo{
+    margin:0px 40px 0px 0px;
+
+}
+#project4-photo{
+    margin:0px 40px 0px 0px;
+
+}
+#project5-photo{
+    margin:0px 40px 0px 0px;
+
 }
 .footer{
     position: fixed;
@@ -90,4 +115,3 @@ h1{
     vertical-align:text-bottom;
     border-top: 2px #4aaaa5 solid;
 }
-
